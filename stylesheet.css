@@ -1,61 +1,62 @@
-
-
+/* Denne klassen brukes til å gi et venstre marg (156px) til et bilde */
 .img1 {
     margin-left: 156px;
 }
 
-.link1{
-display: block;
-margin-left:157px;
-padding-top: 35px;
-font-size: 19px;
-color: red;
-width: 70%;
-font-weight: bold;
-font-family: arial;
-}
-.link2{
+/* .link1 gir stil til en lenke som blokkelement med rød tekst, 
+venstre marg på 157px, topp polstring på 35px, fontstørrelse på 19px, 
+og arial font */
+.link1 {
     display: block;
-    margin-left:165px;
+    margin-left: 157px;
+    padding-top: 35px;
+    font-size: 19px;
+    color: red;
+    width: 70%;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+/* .link2 ligner på .link1 men har lilla tekst, venstre marg på 165px, 
+og topp polstring på 30px */
+.link2 {
+    display: block;
+    margin-left: 165px;
     padding-top: 30px;
     font-size: 19px;
     color: purple;
     width: 70%;
     font-weight: bold;
-    font-family: arial;
-    
-    }
-    .h3{
-        display: block;
-        margin-left:155px;
-        font-size: 19px;
-        font-family:Helvetica, Arial, sans-serif;
-        width: 70%;
-        font-weight: bold;
-        font-family: arial;
-        
-        }
-        
-        .Gul_boks {
-background-color: lemonchiffon;
+    font-family: Arial;
+}
 
+/* Denne klassen formaterer en h3-tittel med venstre marg på 155px,
+fontstørrelse på 19px og Arial font */
+.h3 {
+    display: block;
+    margin-left: 155px;
+    font-size: 19px;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 70%;
+    font-weight: bold;
+}
 
+/* .Gul_boks setter en bakgrunnsfarge (lemonchiffon) på en container */
+.Gul_boks {
+    background-color: lemonchiffon;
+}
 
-        }
-        .t{
-background-color: white;
-display: flex;
-width: 100%;
-height: 100vh;
+/* .t setter opp en container med hvit bakgrunnsfarge, 
+som tar opp hele bredden (100%) og høyden på skjermen (100vh), 
+og bruker flexbox layout */
+.t {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
 
-
-
-
-        }
-.big_text{
+/* .big_text sentrerer teksten i elementet */
+.big_text {
     text-align: center;
-
-
-
-
 }

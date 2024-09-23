@@ -1,65 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
+    
+   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Dokumentets tittel som vises i nettleserens fane -->
     <title>Document</title>
+    
+    <!-- Link til en ekstern CSS-fil for ekstra stilsetting -->
     <link rel="stylesheet" href="stylesheet.css">
-
 </head>
+
+<!-- Legger til en intern stilblokk som gjelder for denne siden -->
 <style>
-
-
-
-
-
+ .t {
+    background-color: white; /* Setter bakgrunnsfargen til hvit */
+    display: flex; /* Bruker flexbox for å arrangere innholdet */
+    width: 100%; /* Tar opp hele bredden på siden */
+    height: 100vh; /* Tar opp hele høyden på visningen (viewport height) */
+}
 </style>
+
 <body>
+    <!-- Starter en tabell -->
     <table>
+        <!-- Første rad i tabellen -->
         <tr>
+            <!-- Første kolonne -->
             <td style="vertical-align: center;">
+                <!-- Div som fungerer som en gul boks (men klassenavn har mellomrom som kan forårsake feil) -->
                 <div class="Gul boks">
+                    <!-- Bildeelement med en ekstern GIF-fil -->
                     <img src="https://www.vortex.com/vortex3.gif" alt="" class="img1">
-                    <a  href="https://vortex.com/google-issues"class="link1">GOOGLE ISSUES Mailing List</a>
-                    <a  href="https://www.nnsquad.org/"class="link2">Network Neutrality Squad</a>
-                    <h3 class="h3">From <a  href="https://lists.pfir.org/mailman/listinfo/pfir">People For Internet Responsibility</a></h3>
-                 </div>
+                    
+                    <!-- Første lenke, til Google Issues mailingliste -->
+                    <a href="https://vortex.com/google-issues" class="link1">GOOGLE ISSUES Mailing List</a>
+                    
+                    <!-- Andre lenke, til Network Neutrality Squad -->
+                    <a href="https://www.nnsquad.org/" class="link2">Network Neutrality Squad</a>
+                    
+                    <!-- Overskrift h3 med en lenke inni til "People For Internet Responsibility" -->
+                    <h3 class="h3">From <a href="https://lists.pfir.org/mailman/listinfo/pfir">People For Internet Responsibility</a></h3>
+                </div>
             </td>
 
+            <!-- Andre kolonne -->
             <td>
+                <!-- Div som inneholder tekst relatert til Vortex Technology -->
                 <div>
+                    <!-- Fet tekst med stor skriftstørrelse som fungerer som overskrift -->
                     <span style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold;">
                         VORTEX.COM
-                      </span><br>
-                      
-                      <span style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;">
+                    </span><br>
+                    
+                    <!-- Informasjon om Vortex Technology, med forskjellige tekststørrelser -->
+                    <span style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;">
                         Vortex Technology<br>
                         Woodland Hills, CA., U.S.A.<br><br>
                         
+                        <!-- Viktig melding med større skriftstørrelse -->
                         <strong style="font-size: 20px;">VORTEX TECHNOLOGY PROVIDES BUSINESS COMPUTER CONSULTING ONLY!</strong><br><br>
-                      
+                        
+                        <!-- Mer informasjon med vanlig tekst og en advarsel -->
                         <span style="font-size: 18px;">
-                          NOTHING TO DO WITH PHONES, TABLETS, OR ANY OTHER PRODUCTS OR SERVICES!<br>
-                          Business Computer Consulting Tel: (818) 225-2800<br><br>
-                      
-                          If you need help with a phone or tablet please go to a completely different company: 
-                          <a href="https://vortexcellular.com" style="color: blue; text-decoration: underline;">Vortex Cellular</a>.
+                            NOTHING TO DO WITH PHONES, TABLETS, OR ANY OTHER PRODUCTS OR SERVICES!<br>
+                            Business Computer Consulting Tel: (818) 225-2800<br><br>
+
+                            <!-- Henvisning til en ekstern nettside, Vortex Cellular -->
+                            If you need help with a phone or tablet please go to a completely different company: 
+                            <a href="https://vortexcellular.com" style="color: blue; text-decoration: underline;">Vortex Cellular</a>.
                         </span><br><br>
-                      </span>
-                      
-                      <br>
-                      
-                      <span style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;">
+                    </span>
+                    
+                    <br>
+                    
+                    <!-- Informasjon om Lauren Weinstein og en lenke til hans Mastodon-profil -->
+                    <span style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;">
                         <strong>Lauren Weinstein</strong><br>
                         On <a href="https://mastodon.laurenweinstein.org/@lauren" style="color: blue; text-decoration: underline;">Mastodon</a>
-                      </span>
-                        
-
-
+                    </span>
                 </div>
             </td>
-         </tr>
+        </tr>
     </table>
-</div>
 </body>
-</html> 
+</html>
